@@ -1,0 +1,61 @@
+.occupatioin-container {
+  display: none;
+}
+
+//DECKTOP//
+
+@media screen and (min-width: 1200px) {
+  .occupatioin {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1200px;
+  }
+  .occupatioin-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .occupatioin-title {
+    font-family: var(--text-font);
+    @include font($fw: bold, $fs: 36px, $fh: 42px);
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+  }
+
+  .occupatioin-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .occupatioin-list-item {
+    position: relative;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 94px;
+  }
+
+  .occupation-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(47, 48, 58, 0.8);
+    height: 70px;
+    width: 100%;
+    padding: 27px 82px;
+    font-family: var(--text-font);
+    @include font($fw: bold, $fs: 14px, $fh: 16px);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}

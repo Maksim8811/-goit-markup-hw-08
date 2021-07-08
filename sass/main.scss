@@ -1,0 +1,21 @@
+/* UTILS*/
+@import "./utils/variables";
+@import "./utils/mixins";
+
+/*BASE*/
+@import "./base/common";
+@import "./base/container";
+
+/*LAYOUT*/
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/occupation";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/backdrop";
+
+@import "./layout/buttons";
+@import "./layout/cards";
