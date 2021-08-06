@@ -1,6 +1,12 @@
 //MOBILE//
+
+.buttons {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .buttons-container {
-  margin: 0 auto;
+  margin: 0 auto 40px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -9,9 +15,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-
-  padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 .button {
@@ -51,13 +54,14 @@
 //TABLET//
 
 @media screen and (min-width: 768px) {
+  .buttons-container {
+    margin: 0 auto 30px;
+  }
+
   .buttons-list {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-
-    padding-top: 60px;
-    padding-bottom: 30px;
   }
 
   .buttons-item:nth-child(-n + 3) {
@@ -67,12 +71,20 @@
 //DESKTOP//
 
 @media screen and (min-width: 1200px) {
+  .buttons {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .buttons-container {
+    margin: 0 auto 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .buttons-list {
     display: flex;
     justify-content: center;
-
-    padding-top: 94px;
-    padding-bottom: 50px;
   }
 
   .buttons-item:not(:last-child) {

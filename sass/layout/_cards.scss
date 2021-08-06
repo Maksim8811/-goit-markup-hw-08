@@ -9,6 +9,8 @@
 .cards {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  max-width: 480px;
+  margin: 0 auto;
 
   &:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -36,7 +38,7 @@
   background-color: rgba(33, 150, 243, 0.9);
   color: #ffffff;
   font-family: var(--text-font);
-  @include font($fw: normal, $fs: 18px, $fh: 21px);
+  @include font($fw: normal, $fs: 18px, $fh: 28px);
   font-style: normal;
   letter-spacing: 0.03em;
 
@@ -94,8 +96,6 @@
   .cards-list {
     display: flex;
     flex-wrap: wrap;
-
-    margin-bottom: 60px;
   }
 
   .cards-item {
