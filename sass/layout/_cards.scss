@@ -1,7 +1,8 @@
 //MOBILE//
 
 .cards-container {
-  margin: 0 auto;
+  width: 100%;
+  margin: 40px auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -55,6 +56,10 @@
 .cards-item {
   margin-bottom: 30px;
 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+
   &:last-child {
     margin-bottom: 60px;
   }
@@ -100,6 +105,7 @@
 
   .cards-item {
     margin-bottom: 30px;
+    margin-left: 0;
 
     &:nth-child(odd) {
       margin-right: 26px;

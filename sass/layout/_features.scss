@@ -34,7 +34,7 @@
   max-width: 450px;
 }
 .features-list-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .features-title {
@@ -150,6 +150,7 @@
 
   .features-list-item:not(:last-child) {
     margin-right: 30px;
+    margin-bottom: 0;
   }
 
   .features-title {

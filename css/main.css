@@ -625,7 +625,7 @@ img {
 }
 
 .features-list-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .features-title {
@@ -741,6 +741,7 @@ img {
 
   .features-list-item:not(:last-child) {
     margin-right: 30px;
+    margin-bottom: 0;
   }
 
   .features-title {
@@ -928,6 +929,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .team {
+    background: #f5f4fa;
+  }
+
   .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -936,7 +941,7 @@ img {
   }
 
   .team-container {
-    width: 100%;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1036,9 +1041,11 @@ img {
 
   .team-social-list {
     display: flex;
-    justify-content: space-evenly;
     padding-top: 16px;
     padding-bottom: 30px;
+  }
+  .team-social-list:not(:last-child) {
+    margin-right: 10px;
   }
 }
 .clients-container {
@@ -1166,6 +1173,7 @@ img {
     line-height: 1.166;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0;
     color: var(--text-color);
   }
 
@@ -1306,6 +1314,8 @@ img {
 }
 
 .form-container {
+  text-align: center;
+  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 60px;
@@ -1914,12 +1924,12 @@ img {
   }
 }
 .buttons {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  margin: 60px auto 60px;
 }
 
 .buttons-container {
-  margin: 0 auto 40px;
+  max-width: 480px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -1961,6 +1971,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .buttons-container {
+    width: 768px;
     margin: 0 auto 30px;
   }
 
@@ -1976,8 +1987,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .buttons {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    margin: 94px auto 94px;
   }
 
   .buttons-container {
@@ -1996,7 +2006,8 @@ img {
   }
 }
 .cards-container {
-  margin: 0 auto;
+  width: 100%;
+  margin: 40px auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -2046,6 +2057,9 @@ img {
 
 .cards-item {
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
 }
 .cards-item:last-child {
   margin-bottom: 60px;
@@ -2088,6 +2102,7 @@ img {
 
   .cards-item {
     margin-bottom: 30px;
+    margin-left: 0;
   }
   .cards-item:nth-child(odd) {
     margin-right: 26px;

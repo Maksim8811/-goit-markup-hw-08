@@ -1,12 +1,13 @@
 //MOBILE//
 
 .buttons {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  margin: 60px auto 60px;
+  // width: 480px;
 }
 
 .buttons-container {
-  margin: 0 auto 40px;
+  max-width: 480px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -55,6 +56,7 @@
 
 @media screen and (min-width: 768px) {
   .buttons-container {
+    width: 768px;
     margin: 0 auto 30px;
   }
 
@@ -72,8 +74,7 @@
 
 @media screen and (min-width: 1200px) {
   .buttons {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    margin: 94px auto 94px;
   }
 
   .buttons-container {
