@@ -16,22 +16,20 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  height: 54px;
 }
 
 .button {
   background: #f5f4fa;
-
   border-radius: 4px;
   @include font($fw: bold, $fs: 16px, $fh: 26px);
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: var(--text-color);
-
   border: 0;
-
-  padding: 6px 22px;
+  
+  // padding: 6px 22px;
 
   &:hover,
   &:focus {
@@ -63,6 +61,7 @@
   .buttons-list {
     display: flex;
     flex-wrap: nowrap;
+    height: 54px;
     justify-content: center;
   }
 
@@ -86,6 +85,7 @@
   .buttons-list {
     display: flex;
     justify-content: center;
+   
   }
 
   .buttons-item:not(:last-child) {
